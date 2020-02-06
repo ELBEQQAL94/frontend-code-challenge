@@ -13,7 +13,7 @@ const Home = () => (
 
       <p className="lead text-center pt-3">
         <Button className="landing_page_btn">
-          <a href="/dashboard" className="nav-link">
+          <a href="/repos" className="nav-link">
             <span>🙏</span> GO TO App
           </a>
         </Button>

@@ -6,12 +6,22 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
 ### TODO Lists
 -------
 
-* [ ] Setupt reactjs
-* [ ] Install dependencies
-* [ ] Landing Page
-    * [ ] Create a describe to the app, and how to use it.
-    * [ ] create buttotn that take you to the app page
-* [ ] As a User I should be able to list the most starred Github repos that were created in the last 30 days. 
+* [x] Setupt reactjs
+* [x] Install dependencies
+* [x] Landing Page
+    * [x] Create a describe to the app, and how to use it.
+    * [x] create buttotn that take you to the app page
+* [ ] As a User I should be able to list the most starred Github repos that were created in the last 30 days.
+    * [x] GET created repos in the last 30 days
+    * [x] Return error if there is a bad request
+    * [x] Return Loading whene user try to get request to the API
+    * [ ] Create Repo Component
+        * Owner Avatar
+        * Repo Name
+        * Repo Description
+        * Number Of Stars
+        * Number Of Issues
+        * Last Submit
 * [ ] As a User I should see the results as a list. One repository per row. 
 * [ ] As a User I should be able to see for each repo/row the following details :
   * [ ] Repository name
@@ -20,6 +30,7 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
   * [ ] Number of issues for the repo.
   * [ ] Username and avatar of the owner. 
 * [ ] As a User I should be able to keep scrolling and new results should appear (pagination).
+* [ ] Create Footer
 
 ### About The Folder Of The Project
 
@@ -54,8 +65,14 @@ Here's what each element represents :
 
 ![alt text](https://raw.githubusercontent.com/hiddenfounders/frontend-coding-challenge/master/row_explained.png)
 
+### Screen Shots
+-------
+
 ### Technologies To Use
 -------
+* Reactjs
+* reactstrap for styling
+* axios for fetching data
 
 ### Deployment
 -------
@@ -66,3 +83,10 @@ Here's what each element represents :
    * If the repo is sensitive and you're not comfortable sharing it publicly please give access to this username: [salimbraksa](https://github.com/salimbraksa).
    * If it's public go to the next step
 * [ ] Send the repo's link to this email: `careers@gemography.com`.
+
+### TIME SPEND ON APP
+-----
+
+### Level Of Defficulties For Me
+-----
+* Easy
