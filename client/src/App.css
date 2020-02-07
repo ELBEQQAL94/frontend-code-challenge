@@ -63,9 +63,74 @@ header .link_router:hover {
     transition: all .5s linear;
 }
 
+/* REPOS */
+.repos {
+    width: 90vw;
+    padding: 4vmin;
+    margin: 6vmin 0;  
+}
+
+.repos h1 {
+    font-size: 5vmin;
+    text-transform: capitalize;
+    padding: 2vmin
+}
+
+/* REPO */
+.repo {
+    width: 100%;
+    height: auto;
+    border: 2px solid;
+    padding: 4vmin;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 6vmin 0;
+    color: black;
+    display: flex;
+}
 
 
+.repo .avatar {
+    width: 200px
+}
 
+.repo .avatar img {
+    padding: 2vmin
+}
+
+.repo .info {
+    flex-shrink: 1;
+    max-width: 100%
+}
+
+.repo .info h2, p {
+    margin: 3vmin 0; 
+}
+
+.star_issue {
+    margin: 3vmin 0;
+    width: 100%;
+}
+
+.star, .issue, .last_submit {
+    margin-left: 1vmin;
+    padding: 1vmin 2vmin;
+    font-size: 2vmin
+}
+
+.star, .issue {
+    border: 1px solid
+}
+
+strong {
+    border-left: 1px solid;
+    padding: 1vmin;
+}
+
+@media (max-width: 900px) {
+    .repo { width: 90vmin }
+    .star_issue { width: 70vmin }
+}
 
 
 

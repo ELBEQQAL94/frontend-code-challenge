@@ -1,11 +1,5 @@
 import axios from "axios";
-
-const GITHUB_API = "https://api.github.com/search";
-let DATE_OF_LAST_THIRTY_DAYS = new Date(
-  new Date().setDate(new Date().getDate() - 30)
-)
-  .toISOString()
-  .split("T")[0];
+import { GITHUB_API, DATE_OF_LAST_THIRTY_DAYS} from '../const';
 
 export async function getRepos() {
   try {

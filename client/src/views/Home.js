@@ -1,5 +1,6 @@
 import React from "react";
 import { Jumbotron, Button, Container } from "reactstrap";
+import { DATE_OF_LAST_THIRTY_DAYS } from '../const';
 
 const Home = () => (
   <Container>
@@ -13,8 +14,8 @@ const Home = () => (
 
       <p className="lead text-center pt-3">
         <Button className="landing_page_btn">
-          <a href="/repos" className="nav-link">
-            <span>🙏</span> GO TO App
+          <a href={`/repos/${DATE_OF_LAST_THIRTY_DAYS}`} className="nav-link">
+            <span>🙏</span> Repos
           </a>
         </Button>
       </p>

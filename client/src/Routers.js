@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { DATE_OF_LAST_THIRTY_DAYS } from './const';
 
 import Header from "./components/Header";
 import Home from "./views/Home";
@@ -14,7 +15,7 @@ const Routers = () => {
       <Header />
       <Switch>
         <Route restricted={false} component={Home} path="/" exact />
-        <Route restricted={false} component={Repos} path="/repos" exact />
+        <Route restricted={false} component={Repos} path={`/repos/${DATE_OF_LAST_THIRTY_DAYS}`} exact />
         <Route path="*" component={PageNotFound} />
       </Switch>
     </Router>

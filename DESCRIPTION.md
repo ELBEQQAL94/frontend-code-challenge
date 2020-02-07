@@ -15,13 +15,15 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
     * [x] GET created repos in the last 30 days
     * [x] Return error if there is a bad request
     * [x] Return Loading whene user try to get request to the API
-    * [ ] Create Repo Component
-        * Owner Avatar
-        * Repo Name
-        * Repo Description
-        * Number Of Stars
-        * Number Of Issues
-        * Last Submit
+    * [x] make url like this /repos/last-30-days
+    * [x] Create Repo Component
+        * Owner name: login
+        * Owner Avatar: avatar_url
+        * Repo Name: name
+        * Repo Description: description
+        * Number Of Stars: stargazers_count
+        * Number Of Issues: open_issues_count
+        * Last Submit: updated_at
 * [ ] As a User I should see the results as a list. One repository per row. 
 * [ ] As a User I should be able to see for each repo/row the following details :
   * [ ] Repository name
@@ -31,6 +33,8 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
   * [ ] Username and avatar of the owner. 
 * [ ] As a User I should be able to keep scrolling and new results should appear (pagination).
 * [ ] Create Footer
+* [ ] Review css code
+* [ ] Check if there is react error in the console
 
 ### About The Folder Of The Project
 

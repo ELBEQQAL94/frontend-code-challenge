@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -8,6 +7,7 @@ import {
   Nav,
   NavItem
 } from "reactstrap";
+import { DATE_OF_LAST_THIRTY_DAYS } from '../const';
 
 import CustomLink from "./CustomLink";
 
@@ -29,7 +29,7 @@ const Header = () => {
               <CustomLink activeOnlyWhenExact={true} to="/" label="Home" />
             </NavItem>
             <NavItem>
-              <CustomLink to="/repos" label="App" />
+              <CustomLink to={`/repos/${DATE_OF_LAST_THIRTY_DAYS}`} label="Repos" />
             </NavItem>
           </Nav>
         </Collapse>
