@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import { Link, useRouteMatch } from 'react-router-dom';
 
 const CustomLink = ({ label, to, activeOnlyWhenExact }) => {
-  let match = useRouteMatch({
+  const match = useRouteMatch({
     path: to,
-    exact: activeOnlyWhenExact
+    exact: activeOnlyWhenExact,
   });
 
   return (
-    <Link className={`link_router ${match ? "active" : ""}`} to={to}>
+    <Link className={`link_router ${match ? 'active' : ''}`} to={to}>
       {label}
     </Link>
   );

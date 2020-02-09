@@ -1,5 +1,5 @@
-import React from "react";
-import { Pagination, PaginationItem, PaginationLink } from "reactstrap";
+import React from 'react';
+import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
 const Pages = ({ onclick, currentPage }) => {
   const pageNumbers = [];
@@ -10,7 +10,7 @@ const Pages = ({ onclick, currentPage }) => {
 
   return (
     <Pagination aria-label="Page navigation example" className="pagination">
-      {pageNumbers.map(number => (
+      {pageNumbers.map((number) => (
         <PaginationItem className={currentPage === number ? 'active_page' : ''} key={number}>
           <PaginationLink
             first

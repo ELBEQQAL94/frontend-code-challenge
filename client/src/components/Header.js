@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem
-} from "reactstrap";
+  NavItem,
+} from 'reactstrap';
 import { DATE_OF_LAST_THIRTY_DAYS } from '../const';
 
-import CustomLink from "./CustomLink";
+import CustomLink from './CustomLink';
 
 const Header = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -20,13 +20,15 @@ const Header = () => {
     <header>
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="mr-auto brand">
-          <span>🍺</span> RepoApp
+          <span>🍺</span>
+          {' '}
+RepoApp
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <CustomLink activeOnlyWhenExact={true} to="/" label="Home" />
+              <CustomLink activeOnlyWhenExact to="/" label="Home" />
             </NavItem>
             <NavItem>
               <CustomLink to={`/repos/${DATE_OF_LAST_THIRTY_DAYS}`} label="Repos" />

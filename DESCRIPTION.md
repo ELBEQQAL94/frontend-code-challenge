@@ -40,12 +40,10 @@ add link here...
 * [x] Create Footer
 * [x] Review css code
 * [x] Check if there is react error in the console
-* [ ] Add proptypes to each component
 * [x] Design 404 page
 * [x] Create favicon 
 * [ ] Deploy the App
-* [ ] refactoring code
-* [ ] Setup eslint
+* [x] Setup eslint
 * [ ] Add test to each component
 
 ### About The Folder Of The Project
