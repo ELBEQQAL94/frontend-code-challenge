@@ -39,7 +39,7 @@ add link here...
 * [x] Check for bad request error or connection error
 * [x] Create Footer
 * [x] Review css code
-* [ ] Check if there is react error in the console
+* [x] Check if there is react error in the console
 * [ ] Add proptypes to each component
 * [x] Design 404 page
 * [x] Create favicon 
