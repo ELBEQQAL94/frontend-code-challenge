@@ -42,9 +42,11 @@ add link here...
 * [x] Check if there is react error in the console
 * [x] Design 404 page
 * [x] Create favicon 
-* [ ] Deploy the App
 * [x] Setup eslint
-* [ ] Add test to each component
+* [x] Add test to each component
+* [ ] Screen shots
+    * https://postimg.cc
+* [ ] Deploy the App
 
 ### About The Folder Of The Project
 -------
