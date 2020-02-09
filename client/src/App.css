@@ -14,7 +14,7 @@ body {
 
 a { 
     text-decoration: none !important; 
-    color: #ffffff !important
+    color: #ffffff 
 }
 
 /* ACTIVE LINK */
@@ -126,6 +126,24 @@ strong {
     border-left: 1px solid;
     padding: 1vmin;
 }
+
+/* BAD REQUEST */
+.bad_request {
+    padding: 4vmin;
+    margin: 6vmin 0; 
+    font-size: 5vmin;
+    text-transform: capitalize;
+}
+
+.active_page {
+    background: red !important
+}
+
+.page-link {
+    background: transparent;
+}
+
+/* small-screen meduim-screen */
 
 @media (max-width: 900px) {
     .repo { width: 90vmin }

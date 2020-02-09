@@ -1,5 +1,6 @@
 ### About This App
 -------
+
 The task is to implement a small webapp that will list the most starred Github repos that were created in the last 30 days. 
 You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
@@ -24,28 +25,76 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
         * Number Of Stars: stargazers_count
         * Number Of Issues: open_issues_count
         * Last Submit: updated_at
-* [ ] As a User I should see the results as a list. One repository per row. 
-* [ ] As a User I should be able to see for each repo/row the following details :
-  * [ ] Repository name
-  * [ ] Repository description 
-  * [ ] Number of stars for the repo. 
-  * [ ] Number of issues for the repo.
-  * [ ] Username and avatar of the owner. 
-* [ ] As a User I should be able to keep scrolling and new results should appear (pagination).
+* [x] As a User I should see the results as a list. One repository per row. 
+* [x] As a User I should be able to see for each repo/row the following details :
+  * [x] Repository name
+  * [x] Repository description 
+  * [x] Number of stars for the repo. 
+  * [x] Number of issues for the repo.
+  * [x] Username and avatar of the owner. 
+* [x] As a User I should be able to keep scrolling and new results should appear (pagination).
+    * [x] Create pagination component
+* [x] Check for bad request error or connection error
 * [ ] Create Footer
 * [ ] Review css code
 * [ ] Check if there is react error in the console
+* [ ] Add proptypes to each component
+* [ ] Design 404 page
+* [ ] Create favicon 
+* [ ] Refactor manifest.json file
+* [ ] Deploy the App
+* [ ] refactoring code
 
 ### About The Folder Of The Project
+-------
+* [x] public
+    * All assets folder: css, js, html
+* [x] src
+   * [x] components
+        * [x] BadRequest.js
+            *  Component render message for error request
+        * [x] CustomLink.js
+            * Component render all links in the App
+        * [x] Header.js
+            * Component render the header for the App
+        * [x] Pages.js
+            * Component render the pagination
+        * [x] Repo
+            * Component render repo item with the info
+   * [x] helpers
+        * [x] index.js
+            * Contain helpers function, and the app logic
+   * [x] views
+        * [x] Home.js
+            * Landing Page
+        * [x] PageNotFound.js
+            * Render 404 bad request
+        * [x] Repos.js
+            * Render all repo
+* [x] App.js
+    * Contain all Routers about using in the App
+* [x] App.test.js
+    * Test App component using jest
+* [x] index.js
+    * Conatin main App
+* [x] Routers.js
+    * Component render all routers using react-router-dom
+* [x] setupTests.js
+    * run the test, using command yarn test
+* [x] App.css
+    * Contain all css style
 
 ### Testing The App
 -------
+
 * [ ] Setup eslint
 
 ### Github API
 -------
 
 ## How To Get The Data From Github 
+-------
+
 To get the most starred Github repos created in the last 30 days (relative to 2017-11-22), you'll need to call the following endpoint : 
 
 `https://api.github.com/search/repositories?q=created:>2017-10-22&sort=stars&order=desc`
@@ -63,6 +112,7 @@ You can read more about the Github API over [here](https://developer.github.com/
 
 ### Mockups
 -------
+
 ![alt text](https://raw.githubusercontent.com/hiddenfounders/frontend-coding-challenge/master/mockup.png)
 
 Here's what each element represents :
@@ -74,8 +124,9 @@ Here's what each element represents :
 
 ### Technologies To Use
 -------
+
 * Reactjs
-* reactstrap for styling
+* reactstrap for CSS styling
 * axios for fetching data
 
 ### Deployment
@@ -93,4 +144,5 @@ Here's what each element represents :
 
 ### Level Of Defficulties For Me
 -----
+
 * Easy
