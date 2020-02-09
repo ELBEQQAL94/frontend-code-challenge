@@ -134,7 +134,7 @@ Here's what each element represents :
 * reactstrap for CSS styling
 * axios for fetching data
 
-### Deployment
+### How to submit the challenge solution?
 -------
 
 * [ ] Deploy project on netlify
