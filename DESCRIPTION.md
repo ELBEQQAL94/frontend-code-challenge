@@ -39,7 +39,7 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
 * [x] Review css code
 * [ ] Check if there is react error in the console
 * [ ] Add proptypes to each component
-* [ ] Design 404 page
+* [x] Design 404 page
 * [ ] Create favicon 
 * [ ] Refactor manifest.json file
 * [ ] Deploy the App
