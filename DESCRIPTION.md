@@ -4,7 +4,7 @@
 The task is to implement a small webapp that will list the most starred Github repos that were created in the last 30 days. 
 You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
-add link here...
+live link: [](https://sad-perlman-2199f0.netlify.com)
 
 ### TODO Lists
 -------
@@ -14,7 +14,7 @@ add link here...
 * [x] Landing Page
     * [x] Create a describe to the app, and how to use it.
     * [x] create buttotn that take you to the app page
-* [ ] As a User I should be able to list the most starred Github repos that were created in the last 30 days.
+* [x] As a User I should be able to list the most starred Github repos that were created in the last 30 days.
     * [x] GET created repos in the last 30 days
     * [x] Return error if there is a bad request
     * [x] Return Loading whene user try to get request to the API
@@ -46,7 +46,7 @@ add link here...
 * [x] Add test to each component
 * [x] Screen shots
     * https://postimg.cc
-* [ ] build app
+* [x] build app
 * [x] Deployement the App
 
 
@@ -133,16 +133,17 @@ Here's what each element represents :
 * Reactjs
 * reactstrap for CSS styling
 * axios for fetching data
+* eslint
 
 ### How to submit the challenge solution?
 -------
 
-* [ ] Deploy project on netlify
-* [ ] push project on github
-* [ ] Set the Repo privacy:
+* [x] Deploy project on netlify
+* [x] push project on github
+* [x] Set the Repo privacy:
    * If the repo is sensitive and you're not comfortable sharing it publicly please give access to this username: [salimbraksa](https://github.com/salimbraksa).
    * If it's public go to the next step
-* [ ] Send the repo's link to this email: `careers@gemography.com`.
+* [x] Send the repo's link to this email: `careers@gemography.com`.
 
 ### TIME SPEND ON APP
 -----
