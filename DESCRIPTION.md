@@ -48,6 +48,7 @@ add link here...
     * https://postimg.cc
 * [ ] Deploy the App
 
+
 ### About The Folder Of The Project
 -------
 
@@ -120,6 +121,10 @@ Here's what each element represents :
 
 ### Screen Shots
 -------
+
+![alt text](https://i.postimg.cc/NfMVTXQV/Screenshot-2020-02-09-React-App.png)
+
+![alt text](https://i.postimg.cc/dQmkd758/Screenshot-2020-02-09-React-App-1.png)
 
 ### Technologies To Use
 -------
