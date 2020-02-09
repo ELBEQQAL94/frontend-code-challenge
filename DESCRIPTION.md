@@ -4,8 +4,6 @@
 The task is to implement a small webapp that will list the most starred Github repos that were created in the last 30 days. 
 You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
-live link: [](https://sad-perlman-2199f0.netlify.com)
-
 ### TODO Lists
 -------
 
