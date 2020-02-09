@@ -4,6 +4,8 @@
 The task is to implement a small webapp that will list the most starred Github repos that were created in the last 30 days. 
 You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
+add link here...
+
 ### TODO Lists
 -------
 
@@ -40,13 +42,15 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
 * [ ] Check if there is react error in the console
 * [ ] Add proptypes to each component
 * [x] Design 404 page
-* [ ] Create favicon 
-* [ ] Refactor manifest.json file
+* [x] Create favicon 
 * [ ] Deploy the App
 * [ ] refactoring code
+* [ ] Setup eslint
+* [ ] Add test to each component
 
 ### About The Folder Of The Project
 -------
+
 * [x] public
     * All assets folder: css, js, html
 * [x] src
@@ -83,11 +87,6 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
     * run the test, using command yarn test
 * [x] App.css
     * Contain all css style
-
-### Testing The App
--------
-
-* [ ] Setup eslint
 
 ### Github API
 -------
@@ -141,6 +140,8 @@ Here's what each element represents :
 
 ### TIME SPEND ON APP
 -----
+
+* 3 days
 
 ### Level Of Defficulties For Me
 -----
