@@ -24,7 +24,7 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
         * Repo Description: description
         * Number Of Stars: stargazers_count
         * Number Of Issues: open_issues_count
-        * Last Submit: updated_at
+        * Last Submit: pushed_at
 * [x] As a User I should see the results as a list. One repository per row. 
 * [x] As a User I should be able to see for each repo/row the following details :
   * [x] Repository name
@@ -35,8 +35,8 @@ You'll be fetching the sorted JSON data directly from the Github API (Github API
 * [x] As a User I should be able to keep scrolling and new results should appear (pagination).
     * [x] Create pagination component
 * [x] Check for bad request error or connection error
-* [ ] Create Footer
-* [ ] Review css code
+* [x] Create Footer
+* [x] Review css code
 * [ ] Check if there is react error in the console
 * [ ] Add proptypes to each component
 * [ ] Design 404 page

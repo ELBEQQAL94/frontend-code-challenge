@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body {
     padding: 0;
     margin: 0;
     background-color: rgb(37, 46, 37);
-    color: #ffffff;
-    height: 3000px
+    color: #ffffff
 }
 
 a { 
@@ -21,53 +20,53 @@ a {
 .active {
     background: rgb(37, 46, 37);
     padding: 1vmin;
-    border: 1px dashed #ffffff;
+    border: 1px dashed #ffffff
 }
 
 /* HEADER */
 header {
     background: aqua;
-    padding: 4vmin;
+    padding: 4vmin
 }
 
 header .brand {
     color: orangered !important;
     font-size: 6vmin;
-    font-family: 'Gelasio', serif;
+    font-family: 'Gelasio', serif
 }
 
 header .link_router {
     margin: 5vmin 0;
     font-size: 3vmin;
     text-transform: uppercase;
-    transition: all .5s linear;
+    transition: all .5s linear
 }
 
 header .link_router:hover {
-    color: black !important;   
+    color: black !important;  
 }
 
 .nav-item {
-    margin-top: 3vmin ;
+    margin-top: 3vmin
 }
 
 /* JUMBOTRON */
 .jumbotron {
     color: #ffffff;
-    background: transparent;
+    background: transparent
 }
 
 .landing_page_btn {
     background: aqua;
     border: 1px dashed;
-    transition: all .5s linear;
+    transition: all .5s linear
 }
 
 /* REPOS */
 .repos {
     width: 90vw;
     padding: 4vmin;
-    margin: 6vmin 0;  
+    margin: 6vmin 0
 }
 
 .repos h1 {
@@ -86,9 +85,8 @@ header .link_router:hover {
     border-radius: 20px;
     margin: 6vmin 0;
     color: black;
-    display: flex;
+    display: flex
 }
-
 
 .repo .avatar {
     width: 200px
@@ -104,12 +102,12 @@ header .link_router:hover {
 }
 
 .repo .info h2, p {
-    margin: 3vmin 0; 
+    margin: 3vmin 0
 }
 
 .star_issue {
     margin: 3vmin 0;
-    width: 100%;
+    width: 100%
 }
 
 .star, .issue, .last_submit {
@@ -124,7 +122,7 @@ header .link_router:hover {
 
 strong {
     border-left: 1px solid;
-    padding: 1vmin;
+    padding: 1vmin
 }
 
 /* BAD REQUEST */
@@ -132,7 +130,7 @@ strong {
     padding: 4vmin;
     margin: 6vmin 0; 
     font-size: 5vmin;
-    text-transform: capitalize;
+    text-transform: capitalize
 }
 
 .active_page {
@@ -140,7 +138,24 @@ strong {
 }
 
 .page-link {
-    background: transparent;
+    background: transparent
+}
+
+/* FOOTER */
+footer {
+    background: aqua;
+    width: 100%;
+    padding: 4vmin;
+    height: 100px;
+    color: #ffffff;
+    margin: 0
+}
+
+footer .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin
 }
 
 /* small-screen meduim-screen */

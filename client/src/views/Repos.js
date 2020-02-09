@@ -40,11 +40,12 @@ const Repos = () => {
             <Repo
               key={repo.id}
               avatar_url={repo.owner.avatar_url}
+              repoName={repo.name}
               name={repo.owner.login}
               description={repo.description}
               stargazers_count={repo.stargazers_count}
               open_issues_count={repo.open_issues_count}
-              updated_at={repo.updated_at}
+              pushed_at={repo.pushed_at}
             />
           ))
         ) : (

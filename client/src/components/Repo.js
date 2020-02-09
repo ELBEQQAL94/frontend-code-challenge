@@ -3,10 +3,11 @@ import React from "react";
 const Repo = ({
   avatar_url,
   name,
+  repoName,
   description,
   stargazers_count,
   open_issues_count,
-  updated_at
+  pushed_at
 }) => (
   <div className="repo">
     <div className="avatar">
@@ -14,7 +15,7 @@ const Repo = ({
     </div>
 
     <div className="info">
-      <h2>{name}</h2>
+      <h2>{repoName}</h2>
       <p className="lead">{description}</p>
       <div className="star_issue">
         <span className="star">
@@ -54,7 +55,7 @@ const Repo = ({
           Issues <strong>{open_issues_count}</strong>
         </span>
         <span className="last_submit">
-          {new Date(updated_at).toISOString().split("T")[0]} by {name}
+          {new Date(pushed_at).toISOString().split("T")[0]} by {name}
         </span>
       </div>
     </div>
