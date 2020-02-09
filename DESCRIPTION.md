@@ -44,9 +44,10 @@ add link here...
 * [x] Create favicon 
 * [x] Setup eslint
 * [x] Add test to each component
-* [ ] Screen shots
+* [x] Screen shots
     * https://postimg.cc
-* [ ] Deploy the App
+* [ ] build app
+* [x] Deployement the App
 
 
 ### About The Folder Of The Project
